@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+	font-family: Verdana, Geneva, sans-serif;
+	color: #6d6f71;
+	font-size: 11px;
+}
+
+#bg {
+	background: url(../images/bg_top.jpg) no-repeat top center;	
+}
+
+/*#bgbottom {
+	background: url(../images/flower_bottom.jpg) no-repeat top center;
+}*/
+
+
+h1 {
+	font-size: 14px;
+	text-indent: -9000px;
+}
+
+h2 {
+	font-size: 11px;
+    font-style: normal;
+	color: #605ca9;
+}
+
+h3 {
+    color: #605ca9;
+    padding: 5px 0;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+h4 {
+    color: #605ca9;
+    padding: 5px 0 10px 0;
+    font-weight: normal;
+}
+
+p {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	letter-spacing: .07em;
+}
+
+a {
+   color: #6d6f71;
+   text-decoration: underline; 
+}
+
+ a:hover {
+	color: #629b21;
+	text-decoration: none;
+}
+
+.selected a {
+    color: #605ca8;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#container {
+	position: relative;
+    margin: 0 auto;
+	width: 800px;
+}	
+
+
+/*-----header-----*/
+
+#header {
+	position: relative;
+	width: 800px;
+	height: 89px;
+	top: 18px;
+}
+
+#logoarea a{
+	background: #fff url(../images/name_logo.gif) no-repeat;
+    position: absolute;
+	right: 4px;
+	height: 84px;
+	width: 107px;
+}
+
+/*-----mainnav-----*/
+
+#mainnav ul {
+    margin: 0 0 0 295px;
+	list-style-type: none;
+}
+
+#mainnav li {
+	float: left;
+}
+
+#mainnav li.last a {
+    border-right: medium none;
+    text-decoration: none;
+}
+#mainnav li a {
+	display: inline;
+	position: relative;
+	height: 11px;
+	border-right: 1px solid #6d6f71;
+	text-decoration: none;
+	padding: 0 5px;
+	top: 70px;
+	font-style: normal;
+}
+
+
+/*-----homeimage-----*/
+
+#homeimages {
+    background: transparent url(../images/welcome.jpg) no-repeat;
+    
+    float: left;
+    height: 250px;
+    width: 357px;
+    margin: 134px 150px 14px 200px;
+}
+
+
+/*-----section1-----*/
+#section1 {
+	float: left;
+	width: 250px;
+	margin-top: 57px;
+}	
+
+.work {
+	padding-top: 238px;
+}
+
+#pagename h2 {
+	margin-bottom: 23px;
+	text-align: right;
+}
+
+#job h2 {
+	margin-bottom: 15px;
+	text-align: right;
+}
+
+#worknav  li {
+	padding: 5px 0;
+	text-align: right;
+}
+
+#worknav li a {
+    text-decoration: none;
+}
+
+#worknav li a:hover {
+	color: #629b21;
+	text-decoration: underline;
+}
+
+	/*----biography page----*/
+#request {
+    margin-top: 154px;
+	}
+
+#request p {
+	font-size: 10px;
+}
+
+    /*----contact page----*/
+.style1 {
+    color:#606060;
+}
+
+
+/*-----section2-----*/
+#section2 {
+	float:right;
+	width: 500px;
+    margin-top: 57px;
+}
+
+    /*----work page----*/
+#panelLabels p {
+    padding: 10px 0 5px 0;
+}
+
+    /*-----discription-----*/
+#description {
+	float: right;
+	width: 500px;
+    margin-bottom: 15px;
+	padding-top: 10px;
+}
+
+
+ /*-----bio and contact-----*/
+   
+.clear {
+    clear: both;
+}
+
+
+/*-----footer-----*/
+
+#footer {
+    background: url(../images/footerline.png) no-repeat;
+    height: 25px;
+    clear: both;
+    margin-top: 55px;
+}
+
+#footer p {
+    font-size: 8px;
+    margin: 0 auto;
+    padding-top: 18px;
+    text-align: right;
+}

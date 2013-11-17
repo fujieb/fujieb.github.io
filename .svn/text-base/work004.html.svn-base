@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Fujie A. Beutel Portfolio</title>
+<link href="css/portfolio.css" rel="stylesheet" type="text/css"/>
+<link href="css/univ.css" rel="stylesheet" type="text/css" />
+<link href="css/SprySlidingPanels.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/SprySlidingPanels.js"></script>
+</head>
+
+<body>
+<div id="bg">
+
+<!--BEGIN CONTAINER-->
+<div id="container">
+	
+    	<!--BEGIN HEADER-->
+    
+    <div id="header">
+		<div id="logoarea">
+			<h1>
+            	<a href="index.html">FUJIE A. BEUTEL</a>
+            </h1>
+		</div>
+		
+		<!--BEGIN mainnav-->
+		<div id="mainnav">
+			<ul>
+    			<li id="nav1"><a href="index.html">BIOGRAPHY</a></li>
+				<li id="nav2" class="selected"><a href="work001.html">WORK</a></li>
+				<li id="nav3" class="last"><a href="contact.html">CONTACT</a></li>
+        	</ul>
+		</div>
+		<!--END mainnav-->
+	</div>
+		<!--END HEADER-->
+        
+	<!--BEGIN WORKNAV-->
+    <div id="section1" class="work">
+    	
+        <div id="job">
+        	<h2>WORK</h2>
+        </div>
+    	
+        <div id="worknav">
+        	<ul>
+				<li id="work1" class="first"><a href="work001.html">Propellere Identity design</a></li>
+				<li id="work2"><a href="work002.html">Carpe Diem Winery Identity & Collateral</a></li>
+				<li id="work3"><a href="work003.html">365 Energy Identity design</a></li>
+				<li id="work4" Class="selected"><a href="work004.html">Casa de Plata Flash Website</a></li>
+				<li id="work5"><a href="work005.html">A Taste of The Bayou Website</a></li>
+				<li id="work6"><a href="work006.html">PBS Celtic Mythology Website</a></li>
+				<li id="work7"><a href="work007.html">Atrium Hardware Newspaper Ad</a></li>
+				<li id="work8"　class="last"><a href="work008.html">Photorealistic Fantasy Collage</a></li>
+			</ul>
+    	</div>
+	</div>
+    <!--END WORKNAV-->
+        
+    
+    <div id="section2"> 
+    <div id="container_R">
+    
+		<p>&nbsp;</p>
+    	<div id="example2" class="SlidingPanels" tabindex="0">
+        	<div class="SlidingPanelsContentGroup">
+            	<div id="ex2_p1" class="SlidingPanelsContent p1"></div>
+            	<div id="ex2_p2" class="SlidingPanelsContent p2"></div>
+            	<div id="ex2_p3" class="SlidingPanelsContent p3"></div>
+            	<div id="ex2_p4" class="SlidingPanelsContent p4"></div>
+                <div id="ex2_p5" class="SlidingPanelsContent p5"></div>	
+ 			</div>
+    	</div>
+   
+    	<div id="panelLabels">
+    		<p>
+    			<a href="#" onclick="sp2.showPanel('ex2_p1'); return false;">1</a> |
+    			<a href="#" onclick="sp2.showPanel('ex2_p2'); return false;">2</a> |
+    			<a href="#" onclick="sp2.showPanel('ex2_p3'); return false;">3</a> |
+    			<a href="#" onclick="sp2.showPanel('ex2_p4'); return false;">4</a> |
+                <a href="#" onclick="sp2.showPanel('ex2_p5'); return false;">5</a> 
+    		</p>
+    	</div>
+	</div>
+
+
+    <script type="text/javascript">var sp2 = new Spry.Widget.SlidingPanels('example2');</script>
+    </div>
+    
+    <div id="description">
+	<h4>Art 258 Interface Programming II</h4>
+	<p>Casa de Plata is a jewelry designer portfolio site. The client requested a clean and simple design, so the design implements the simple use of line and shape.</p>
+    </div>
+
+    <div class="clear"></div><!-- avoid bug in Firefox3: null body swallows footer div -->
+
+
+    <!--BEGIN footer-->
+    <div id="footer">
+        <p>&copy 2009 Fujie A. Beutel</p>
+    </div>
+    <!--END footer-->
+
+</div>
+</div>
+</div>
+</body>
+</html>
