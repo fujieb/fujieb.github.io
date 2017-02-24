@@ -73,14 +73,17 @@
 	background: url(../images/365_letter_emv.jpg) no-repeat;
 }
 .p21 {
-	background: url(../images/propellere_logo.jpg) no-repeat;
+	background: url(../images/logo-moi.jpg) no-repeat;
 }
-.p22 {
-	background: url(../images/propellere_card.jpg) no-repeat;
-}
-.p23 {
-	background: url(../images/propellere_letter_emv.jpg) no-repeat;
-}
+/*.p21 {*/
+	/*background: url(../images/propellere_logo.jpg) no-repeat;*/
+/*}*/
+/*.p22 {*/
+	/*background: url(../images/propellere_card.jpg) no-repeat;*/
+/*}*/
+/*.p23 {*/
+	/*background: url(../images/propellere_letter_emv.jpg) no-repeat;*/
+/*}*/
 .p24 {
 	background: url(../images/logo_bottoles_box.jpg)no-repeat;
 }
@@ -148,7 +151,28 @@
 	background: url(../images/fivecomfort-4.jpg) no-repeat;
 }
 .p46 {
-	background: url(../images/fivecomfort-5.jpg) no-repeat;
+	background: url(../images/imua-ukulele-1.jpg) no-repeat;
+}
+.p47 {
+	background: url(../images/imua-ukulele-2-1.jpg) no-repeat;
+}
+.p48 {
+	background: url(../images/imua-ukulele-3.jpg) no-repeat;
+}
+.p49 {
+	background: url(../images/imua-ukulele-4.jpg) no-repeat;
+}
+.p50 {
+	background: url(../images/imua-ukulele-5.jpg) no-repeat;
+}
+.p51 {
+	background: url(../images/imua-ukulele-8.jpg) no-repeat;
+}
+.p52 {
+	background: url(../images) no-repeat;
+}
+.p53 {
+	background: url(../images) no-repeat;
 }
 
 #example2.SlidingPanels {
