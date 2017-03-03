@@ -169,10 +169,22 @@
 	background: url(../images/imua-ukulele-8.jpg) no-repeat;
 }
 .p52 {
-	background: url(../images) no-repeat;
+	background: url(../images/ndptc-respo.jpg) no-repeat;
 }
 .p53 {
-	background: url(../images) no-repeat;
+	background: url(../images/ndptc-respo-2.jpg) no-repeat;
+}
+.p54 {
+	background: url(../images/ndptc-respo-3.jpg) no-repeat;
+}
+.p55 {
+	background: url(../images/ndptc-respo-4.jpg) no-repeat;
+}
+.p56 {
+	background: url(../images/ndptc-respo-5.jpg) no-repeat;
+}
+.p57 {
+	background: url(../images/ndptc-icons.gif) no-repeat;
 }
 
 #example2.SlidingPanels {
