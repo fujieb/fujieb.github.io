@@ -75,14 +75,11 @@
 .p21 {
 	background: url(../images/logo-moi.jpg) no-repeat;
 }
-/*.p21 {*/
-	/*background: url(../images/propellere_logo.jpg) no-repeat;*/
-/*}*/
-/*.p22 {*/
-	/*background: url(../images/propellere_card.jpg) no-repeat;*/
-/*}*/
+.p22 {
+	background: url(../images/logo-jacy-inc.gif) no-repeat;
+}
 /*.p23 {*/
-	/*background: url(../images/propellere_letter_emv.jpg) no-repeat;*/
+	/*background: url(../images/jacy-inc-business-card.gif) no-repeat;*/
 /*}*/
 .p24 {
 	background: url(../images/logo_bottoles_box.jpg)no-repeat;
@@ -199,7 +196,13 @@
 	background: url(../images/imua-t-shirts.jpg) no-repeat;
 }
 .p62 {
+	background: url(../images/imua-logo-new.png) no-repeat;
+}
+.p63 {
 	background: url(../images/imua-head-inlay.jpg) no-repeat;
+}
+.p64 {
+	background: url(../images/imua-tag-new.jpg) no-repeat;
 }
 
 #example2.SlidingPanels {
@@ -207,7 +210,7 @@
 }
 #example2 .SlidingPanelsContentGroup {
 	float: left;
-	width: 3000px;
+	width: 5000px;
 }
 #example2 .SlidingPanelsContent {
 	float: left;
