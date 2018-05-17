@@ -81,14 +81,14 @@ ul {
 	position: relative;
 	width: 800px;
 	height: 89px;
-	top: 18px;
+	top: 10px;
 }
 
 #logoarea a{
-	background: #fff url(../images/name_logo.gif) no-repeat;
+	background:url(../images/fbmylogo.png) no-repeat;
     position: absolute;
-	right: 4px;
-	height: 84px;
+	left: 4px;
+	height: 85px;
 	width: 107px;
 }
 
