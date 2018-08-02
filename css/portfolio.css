@@ -176,6 +176,9 @@ ul {
 }
 
     /*----contact page----*/
+#section2 #coment h2 {
+	margin-bottom: 5px;
+}
 .style1 {
     color:#606060;
 }
