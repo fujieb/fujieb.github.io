@@ -5,9 +5,9 @@
 
 body {
 	
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: Roboto, Verdana, Geneva, sans-serif;
 	color: #6d6f71;
-	font-size: 11px;
+	font-size: 15px;
 }
 
 #bg {
@@ -20,12 +20,12 @@ body {
 
 
 h1 {
-	font-size: 14px;
+	font-size: 17px;
 	text-indent: -9000px;
 }
 
 h2 {
-	font-size: 11px;
+	font-size: 16px;
     font-style: normal;
 	color: #605ca9;
 }
@@ -44,10 +44,11 @@ h4 {
 }
 
 p {
-	font-family: Geneva, Arial, Helvetica, sans-serif;
-	font-size: 11px;
+	font-family: Roboto, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
 	font-style: normal;
-	letter-spacing: .07em;
+    line-height: 1.5;
+	/*letter-spacing: .07em;*/
 }
 
 a {
@@ -72,7 +73,7 @@ ul {
 	position: relative;
     margin: 0 auto;
 	width: 800px;
-}	
+}
 
 
 /*-----header-----*/
@@ -159,6 +160,7 @@ ul {
 
 #worknav li a {
     text-decoration: none;
+	font-size: 13px;
 }
 
 #worknav li a:hover {
@@ -172,7 +174,7 @@ ul {
 	}
 
 #request p {
-	font-size: 10px;
+	font-size: 13px;
 }
 
     /*----contact page----*/
@@ -222,7 +224,7 @@ ul {
 }
 
 #footer p {
-    font-size: 8px;
+    font-size: 11px;
     margin: 0 auto;
     padding-top: 18px;
     text-align: right;
